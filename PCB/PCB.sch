@@ -1717,25 +1717,25 @@ F 3 "" H 13350 7800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L KEYSW K3,17
+L KEYSW K3,16
 U 1 1 589E52ED
-P 15950 7600
-F 0 "K3,17" H 15900 7600 60  0000 C CNN
-F 1 "KEYSW" H 15950 7500 60  0001 C CNN
-F 2 "keebs:Mx_Alps_275" H 15950 7600 60  0001 C CNN
-F 3 "" H 15950 7600 60  0000 C CNN
-	1    15950 7600
+P 15200 7600
+F 0 "K3,16" H 15150 7600 60  0000 C CNN
+F 1 "KEYSW" H 15200 7500 60  0001 C CNN
+F 2 "keebs:Mx_Alps_275" H 15200 7600 60  0001 C CNN
+F 3 "" H 15200 7600 60  0000 C CNN
+	1    15200 7600
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3,17
+L D D3,16
 U 1 1 589E52F3
-P 15600 7800
-F 0 "D3,17" V 15450 7750 60  0000 C CNN
-F 1 "D" V 15750 7750 60  0001 C CNN
-F 2 "keyboard_parts:D_SOD123_axial" H 15600 7800 60  0001 C CNN
-F 3 "" H 15600 7800 60  0000 C CNN
-	1    15600 7800
+P 14850 7800
+F 0 "D3,16" V 14700 7750 60  0000 C CNN
+F 1 "D" V 15000 7750 60  0001 C CNN
+F 2 "keyboard_parts:D_SOD123_axial" H 14850 7800 60  0001 C CNN
+F 3 "" H 14850 7800 60  0000 C CNN
+	1    14850 7800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2090,6 +2090,176 @@ F 3 "" H 7700 8100 60  0000 C CNN
 	1    7700 8100
 	1    0    0    -1  
 $EndComp
+Text Label 2750 6350 2    60   ~ 12
+row0
+Text Label 2750 6850 2    60   ~ 12
+row1
+Text Label 2750 7350 2    60   ~ 12
+row2
+Text Label 2750 7850 2    60   ~ 12
+row3
+Text Label 2750 8350 2    60   ~ 12
+row4
+Text Label 3500 6000 0    60   ~ 12
+col0
+Text Label 4250 6000 0    60   ~ 12
+col1
+Text Label 5000 6000 0    60   ~ 12
+col2
+Text Label 5750 6000 0    60   ~ 12
+col3
+Text Label 6500 6000 0    60   ~ 12
+col4
+Text Label 7250 6000 0    60   ~ 12
+col5
+Text Label 8000 6000 0    60   ~ 12
+col6
+Text Label 8750 6000 0    60   ~ 12
+col7
+Text Label 9500 6000 0    60   ~ 12
+col8
+Text Label 10250 6000 0    60   ~ 12
+col9
+Text Label 11000 6000 0    60   ~ 12
+col10
+Text Label 11750 6000 0    60   ~ 12
+col11
+Text Label 12500 6000 0    60   ~ 12
+col12
+Text Label 13250 6000 0    60   ~ 12
+col13
+Text Label 14000 6000 0    60   ~ 12
+col14
+Text Label 14750 6000 0    60   ~ 12
+col15
+Text Label 15500 6000 0    60   ~ 12
+col16
+Text Label 16250 6000 0    60   ~ 12
+col17
+Text Label 17000 6000 0    60   ~ 12
+col18
+Text Label 17750 6000 0    60   ~ 12
+col19
+Text Label 18500 6000 0    60   ~ 12
+col20
+$Comp
+L XTAL_GND X1
+U 1 1 58A03499
+P 8450 10900
+F 0 "X1" H 8450 11050 60  0000 C CNN
+F 1 "XTAL_GND" H 8450 10750 60  0000 C CNN
+F 2 "" H 8450 10900 60  0000 C CNN
+F 3 "" H 8450 10900 60  0000 C CNN
+	1    8450 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58A03959
+P 8450 11200
+F 0 "#PWR?" H 8450 10950 50  0001 C CNN
+F 1 "GND" H 8450 11050 50  0000 C CNN
+F 2 "" H 8450 11200 50  0000 C CNN
+F 3 "" H 8450 11200 50  0000 C CNN
+	1    8450 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 58A03D19
+P 8800 11050
+F 0 "C2" H 8810 11120 50  0000 L CNN
+F 1 "22p" H 8810 10970 50  0000 L CNN
+F 2 "" H 8800 11050 50  0000 C CNN
+F 3 "" H 8800 11050 50  0000 C CNN
+	1    8800 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 58A03F87
+P 8100 11050
+F 0 "C1" H 8110 11120 50  0000 L CNN
+F 1 "22p" H 8110 10970 50  0000 L CNN
+F 2 "" H 8100 11050 50  0000 C CNN
+F 3 "" H 8100 11050 50  0000 C CNN
+	1    8100 11050
+	1    0    0    -1  
+$EndComp
+Text Label 9350 11900 2    60   ~ 12
+row0
+Text Label 9350 12000 2    60   ~ 12
+row1
+Text Label 9350 12100 2    60   ~ 12
+row2
+Text Label 9350 12200 2    60   ~ 12
+row3
+Text Label 9350 12300 2    60   ~ 12
+row4
+Text Label 9350 11050 2    60   ~ 12
+col0
+Text Label 9350 11150 2    60   ~ 12
+col1
+Text Label 9350 11250 2    60   ~ 12
+col2
+Text Label 9350 11350 2    60   ~ 12
+col3
+Text Label 9350 11450 2    60   ~ 12
+col4
+Text Label 11350 10200 0    60   ~ 12
+col5
+Text Label 11350 10300 0    60   ~ 12
+col6
+Text Label 11350 10400 0    60   ~ 12
+col7
+Text Label 11350 10500 0    60   ~ 12
+col8
+Text Label 11350 10600 0    60   ~ 12
+col9
+Text Label 11350 10700 0    60   ~ 12
+col10
+Text Label 11350 10800 0    60   ~ 12
+col11
+Text Label 11350 10900 0    60   ~ 12
+col12
+Text Label 11350 11050 0    60   ~ 12
+col13
+Text Label 11350 11150 0    60   ~ 12
+col14
+Text Label 11350 11250 0    60   ~ 12
+col15
+Text Label 11350 11350 0    60   ~ 12
+col16
+Text Label 11350 11450 0    60   ~ 12
+col17
+Text Label 11350 11550 0    60   ~ 12
+col18
+Text Label 11350 11650 0    60   ~ 12
+col19
+Text Label 11350 11750 0    60   ~ 12
+col20
+$Comp
+L RN42 U1
+U 1 1 58A27769
+P 13200 12550
+F 0 "U1" H 13800 11600 50  0000 C CNN
+F 1 "RN42" H 13200 13500 50  0000 C CNN
+F 2 "" H 13200 12550 60  0000 C CNN
+F 3 "" H 13200 12550 60  0000 C CNN
+	1    13200 12550
+	-1   0    0    1   
+$EndComp
+$Comp
+L ATXMEGA64C3-A IC1
+U 1 1 58A308E2
+P 10350 11600
+F 0 "IC1" H 9500 13200 50  0000 L BNN
+F 1 "ATXMEGA64C3-A" H 10750 9900 50  0000 L BNN
+F 2 "TQFP64" H 10350 11600 50  0000 C CIN
+F 3 "" H 10350 11600 50  0000 C CNN
+	1    10350 11600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2850 6150 2850 6100
 Wire Wire Line
@@ -2395,9 +2565,9 @@ Wire Wire Line
 Wire Wire Line
 	13350 7600 13400 7600
 Wire Wire Line
-	15600 7650 15600 7600
+	14850 7650 14850 7600
 Wire Wire Line
-	15600 7600 15650 7600
+	14850 7600 14900 7600
 Wire Wire Line
 	16350 7650 16350 7600
 Wire Wire Line
@@ -2539,7 +2709,7 @@ Connection ~ 11100 7850
 Connection ~ 11850 7850
 Connection ~ 12600 7850
 Connection ~ 13350 7850
-Connection ~ 15600 7850
+Connection ~ 14850 7850
 Connection ~ 16350 7850
 Connection ~ 17100 7850
 Wire Wire Line
@@ -2560,16 +2730,6 @@ Connection ~ 2850 6850
 Connection ~ 2850 7350
 Connection ~ 2850 7850
 Connection ~ 2850 8350
-Text Label 2750 6350 2    60   ~ 12
-row0
-Text Label 2750 6850 2    60   ~ 12
-row1
-Text Label 2750 7350 2    60   ~ 12
-row2
-Text Label 2750 7850 2    60   ~ 12
-row3
-Text Label 2750 8350 2    60   ~ 12
-row4
 Wire Wire Line
 	3500 6000 3500 8100
 Connection ~ 3500 7600
@@ -2662,7 +2822,7 @@ Connection ~ 15500 6600
 Connection ~ 15500 6100
 Wire Wire Line
 	16250 6000 16250 8100
-Connection ~ 16250 7600
+Connection ~ 15500 7600
 Connection ~ 16250 7100
 Connection ~ 16250 6600
 Connection ~ 16250 6100
@@ -2684,46 +2844,104 @@ Connection ~ 18500 7600
 Connection ~ 18500 7100
 Connection ~ 18500 6600
 Connection ~ 18500 6100
-Text Label 3500 6000 0    60   ~ 12
-col0
-Text Label 4250 6000 0    60   ~ 12
-col1
-Text Label 5000 6000 0    60   ~ 12
-col2
-Text Label 5750 6000 0    60   ~ 12
-col3
-Text Label 6500 6000 0    60   ~ 12
-col4
-Text Label 7250 6000 0    60   ~ 12
-col5
-Text Label 8000 6000 0    60   ~ 12
-col6
-Text Label 8750 6000 0    60   ~ 12
-col7
-Text Label 9500 6000 0    60   ~ 12
-col8
-Text Label 10250 6000 0    60   ~ 12
-col9
-Text Label 11000 6000 0    60   ~ 12
-col10
-Text Label 11750 6000 0    60   ~ 12
-col11
-Text Label 12500 6000 0    60   ~ 12
-col12
-Text Label 13250 6000 0    60   ~ 12
-col13
-Text Label 14000 6000 0    60   ~ 12
-col14
-Text Label 14750 6000 0    60   ~ 12
-col15
-Text Label 15500 6000 0    60   ~ 12
-col16
-Text Label 16250 6000 0    60   ~ 12
-col17
-Text Label 17000 6000 0    60   ~ 12
-col18
-Text Label 17750 6000 0    60   ~ 12
-col19
-Text Label 18500 6000 0    60   ~ 12
-col20
+Wire Wire Line
+	8450 11100 8450 11200
+Wire Wire Line
+	8100 10750 8100 10950
+Wire Wire Line
+	8100 10900 8150 10900
+Wire Wire Line
+	8750 10900 9350 10900
+Wire Wire Line
+	8800 10900 8800 10950
+Wire Wire Line
+	8100 11150 8800 11150
+Connection ~ 8450 11150
+Connection ~ 8800 10900
+Connection ~ 8100 10900
+Wire Wire Line
+	8100 10750 8800 10750
+Wire Wire Line
+	8800 10750 8800 10800
+Wire Wire Line
+	8800 10800 9350 10800
+Wire Wire Line
+	11950 12200 11950 12000
+Wire Wire Line
+	11950 12000 12600 12000
+Wire Wire Line
+	12600 12700 11950 12700
+Wire Wire Line
+	11950 12700 11950 12300
+Wire Wire Line
+	11950 12300 11350 12300
+Wire Wire Line
+	12600 12900 11900 12900
+Wire Wire Line
+	11900 12900 11900 12400
+Wire Wire Line
+	11900 12400 11350 12400
+Wire Wire Line
+	13800 12900 14100 12900
+Wire Wire Line
+	14100 12900 14100 13550
+Wire Wire Line
+	14100 13550 11850 13550
+Wire Wire Line
+	11850 13550 11850 12500
+Wire Wire Line
+	11850 12500 11350 12500
+Wire Wire Line
+	13800 12800 14150 12800
+Wire Wire Line
+	14150 12800 14150 13600
+Wire Wire Line
+	14150 13600 11800 13600
+Wire Wire Line
+	11800 13600 11800 12600
+Wire Wire Line
+	11800 12600 11350 12600
+Wire Wire Line
+	14100 12700 13800 12700
+Wire Wire Line
+	14100 11300 14100 12700
+Wire Wire Line
+	14100 11300 11900 11300
+Wire Wire Line
+	11900 11300 11900 12000
+Wire Wire Line
+	11900 12000 11350 12000
+NoConn ~ 11350 11900
+NoConn ~ 9350 11550
+NoConn ~ 9350 11650
+NoConn ~ 9350 11750
+NoConn ~ 9350 12400
+NoConn ~ 9350 12500
+NoConn ~ 9350 12600
+$Comp
+L R RB1
+U 1 1 58A532F2
+P 11600 12100
+F 0 "RB1" V 11680 12100 50  0000 C BNN
+F 1 "3.3k" V 11600 12100 50  0000 C CNN
+F 2 "" H 11600 12100 60  0000 C CNN
+F 3 "" H 11600 12100 60  0000 C CNN
+	1    11600 12100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11850 12100 12600 12100
+$Comp
+L R RB2
+U 1 1 58A539EE
+P 11600 12200
+F 0 "RB2" V 11680 12200 50  0000 C BNN
+F 1 "3,3k" V 11600 12200 50  0000 C CNN
+F 2 "" H 11600 12200 60  0000 C CNN
+F 3 "" H 11600 12200 60  0000 C CNN
+	1    11600 12200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11850 12200 11950 12200
 $EndSCHEMATC
