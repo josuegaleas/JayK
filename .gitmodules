@@ -7,3 +7,6 @@
 [submodule "PCB/Libraries/keebs.pretty"]
 	path = PCB/Libraries/keebs.pretty
 	url = https://github.com/egladman/keebs.pretty
+[submodule "PCB/Libraries/doragasu-kicad-lib"]
+	path = PCB/Libraries/doragasu-kicad-lib
+	url = https://github.com/doragasu/doragasu-kicad-lib.git

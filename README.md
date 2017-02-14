@@ -2,8 +2,7 @@
 Custom Mechanical Keyboard (PCB Schematic & Layout/Firmware/Plate & Case Models)
 
 # Components
-- [Atmel's ATxmega64C3](http://www.atmel.com/devices/ATxmega64C3.aspx)
-- [Microchip's RN42](http://www.microchip.com/wwwproducts/en/RN42)
+- [Atmel's AT90USB1286](http://www.atmel.com/devices/AT90USB1286.aspx)
 
 # Tools
 - [KiCad](http://kicad-pcb.org/)
