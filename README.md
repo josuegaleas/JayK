@@ -1,5 +1,9 @@
 # JayKey1
-Custom Mechanical Keyboard (PCB Schematic & Layout/Firmware/Plate & Case Models)
+Custom Mechanical Keyboard (Layout/PCB/Firmware/Models)
+
+## Gallery
+Layout (Proposed)
+![Layout](./Images/Layout.png?raw=true)
 
 ## Components
 - [Microchip's AT90USB1286](http://www.microchip.com/wwwproducts/en/AT90USB1286)
@@ -7,18 +11,20 @@ Custom Mechanical Keyboard (PCB Schematic & Layout/Firmware/Plate & Case Models)
 	- [Datasheet (Complete)](http://www.atmel.com/Images/doc7593.pdf)
 
 ## Tools
-- PCB Schematic & Layout
-	- [KiCad EDA](http://kicad-pcb.org/)
+- Layout
 	- [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
+- PCB
+	- [KiCad EDA](http://kicad-pcb.org/)
 - Firmware
 	- [CrossPack](https://www.obdev.at/products/crosspack/index.html)
-- Plate & Case Models
+- Models
 	- [swillkb's Plate & Case Builder](http://builder.swillkb.com/)
 
 ## References
-- PCB Schematic & Layout
-	- [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide)
+- Layout
 	- [Physical Keyboard Layouts Explained In Detail](https://www.massdrop.com/talk/947/keyboard-layouts-explained-in-detail-many-pics)
+- PCB
+	- [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide)
 	- [Teensy++ 2.0](https://www.pjrc.com/store/teensypp.html)
 - Firmware
 	- [How to build your very own keyboard firmware](https://deskthority.net/workshop-f7/how-to-build-your-very-own-keyboard-firmware-t7177.html)
