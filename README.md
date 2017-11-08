@@ -1,18 +1,16 @@
 # JayKey1
 Custom mechanical keyboard: PCB, firmware, and models.
 
-## Gallery
-Layout (WIP)
+## Layout
 ![Layout](./Layout/JayKey1.png?raw=true)
 
 ## Components
-- [Teensy++ 2.0](https://www.pjrc.com/store/teensypp.html)
+- [Atmel AT90USB1286](http://www.microchip.com/wwwproducts/en/AT90USB1286)
 
 ## Tools
 - Layout: [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
 - PCB: [KiCad EDA](http://kicad-pcb.org/)
-- Firmware: [CrossPack](https://www.obdev.at/products/crosspack/index.html)
-- Models: [swillkb's Plate & Case Builder](http://builder.swillkb.com/)
+- Models: [Plate & Case Builder](http://builder.swillkb.com/)
 
 ## References
 - Layout: [Physical Keyboard Layouts Explained In Detail](https://www.massdrop.com/talk/947/keyboard-layouts-explained-in-detail-many-pics)
@@ -22,5 +20,5 @@ Layout (WIP)
 	- [Introduction to Keyboard Programming](https://www.massdrop.com/article/introduction-to-keyboard-programming)
 
 ## Inspiration
-- [ONO-SENDAI MATRIX 83](http://imgur.com/a/v5pzh#FiXKcm0)
-- [CODE Mechanical Keyboard](http://www.codekeyboards.com/)
+- [ONO-SENDAI MATRIX 83](https://imgur.com/a/v5pzh#FiXKcm0)
+- [CODE Mechanical Keyboard](https://www.codekeyboards.com/)
