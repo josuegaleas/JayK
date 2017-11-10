@@ -1,16 +1,16 @@
 [
   {
+    "backcolor": "#7f7f7f",
     "name": "JayKey1",
     "author": "Josue Galeas",
-    "switchMount": "cherry",
-    "switchBrand": "gateron",
-    "switchType": "KS-3-Tea",
     "pcb": true
   },
   [
     {
       "c": "#373535",
       "t": "#ffffff",
+      "sm": "cherry",
+      "sb": "gateron",
       "st": "KS-3-Tea",
       "a": 5
     },
@@ -181,12 +181,14 @@
     "Enter",
     {
       "c": "#1a1a1a",
+      "st": "KS-3-Red",
       "w": 2.25
     },
     "Shift",
     {
       "c": "#ffffff",
-      "t": "#1a1a1a"
+      "t": "#1a1a1a",
+      "st": "KS-3-Tea"
     },
     "Z",
     "X",
@@ -205,6 +207,7 @@
     {
       "c": "#1a1a1a",
       "t": "#ffffff",
+      "st": "KS-3-Red",
       "a": 7,
       "w": 2.75
     },
@@ -217,12 +220,14 @@
     {
       "c": "#ffffff",
       "t": "#1a1a1a",
+      "st": "KS-3-Tea",
       "f": 3
     },
     "↑",
     {
       "c": "#373535",
       "t": "#ffffff",
+      "st": "KS-3-Red",
       "f": 6
     },
     "&uArr;"
@@ -231,6 +236,7 @@
     {
       "c": "#ffffff",
       "t": "#1a1a1a",
+      "st": "KS-3-Tea",
       "f": 3,
       "w": 2
     },
@@ -240,6 +246,7 @@
       "x": 1,
       "c": "#1a1a1a",
       "t": "#ffffff",
+      "st": "KS-3-Red",
       "w": 1.25
     },
     "Ctrl",
@@ -256,12 +263,14 @@
     {
       "c": "#96938e",
       "t": "#1a1a1a",
+      "st": "KS-3-Tea",
       "w": 6.25
     },
     "",
     {
       "c": "#1a1a1a",
       "t": "#ffffff",
+      "st": "KS-3-Red",
       "w": 1.25
     },
     "Alt",
@@ -281,7 +290,8 @@
     "Ctrl",
     {
       "c": "#ffffff",
-      "t": "#1a1a1a"
+      "t": "#1a1a1a",
+      "st": "KS-3-Tea"
     },
     "←",
     "↓",
