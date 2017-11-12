@@ -8,7 +8,7 @@ Custom mechanical keyboard: PCB, firmware, and models.
 #### Components on PCB
 - [Atmel's AT90USB1286](http://www.microchip.com/wwwproducts/en/AT90USB1286)
 
-#### Switches & Accessories
+#### Switches & Other Parts
 - [Zeal PC's 67g Tealios](https://zealpc.net/collections/accessories/products/tealios) for shift, ctrl, OS, alt, fn, and layer keys
 - [Zeal PC's 67g Zealios](https://zealpc.net/collections/accessories/products/zealio) for all other keys
 - [Zeal PC's Zealencio Silencing Clips](https://zealpc.net/collections/accessories/products/zealencio)
