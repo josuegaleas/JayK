@@ -3451,7 +3451,7 @@ U 1 1 5A0E38FE
 P 3350 3350
 F 0 "Y1" V 3150 3200 50  0000 L CNN
 F 1 "16M" V 3150 3400 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm_HandSoldering" H 3350 3350 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm" H 3350 3350 50  0001 C CNN
 F 3 "" H 3350 3350 50  0001 C CNN
 	1    3350 3350
 	0    1    1    0   
