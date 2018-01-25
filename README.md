@@ -5,7 +5,7 @@ Custom mechanical keyboard: PCB, firmware, and models.
 ![Layout](./Layout/JayKey1.png?raw=true)
 
 ## Parts
-#### Components on PCB
+#### Major Components on PCB
 - [Atmel's AT90USB1286](http://www.microchip.com/wwwproducts/en/AT90USB1286)
 
 #### Switches & Other Parts
