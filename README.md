@@ -1,15 +1,22 @@
 # JayKey1
 Custom mechanical keyboard: PCB, firmware, and models.
 
+## Features
+- USB-C port for modernness
+- No lighting for simplicity
+- Number pad to the left for comfort
+
 ## Layout
-![Layout](./Layout/JayKey1.png?raw=true)
+![Layout](https://raw.githubusercontent.com/josuegaleas/jay-images/master/keyboard-layout.png?raw=true)
+
+JSON file for layout can be found [here](https://gist.github.com/josuegaleas/dfdca11b15b211802d6edf1502e16ecf), for editing in [KLE](http://www.keyboard-layout-editor.com/).
 
 ## Parts
 #### Major Components on PCB
 - [Atmel's AT90USB1286](http://www.microchip.com/wwwproducts/en/AT90USB1286)
 
 #### Switches & Other Parts
-- [Zeal PC's 67g Tealios (Linear)](https://zealpc.net/collections/accessories/products/tealios) for shift, ctrl, OS, alt, fn, and layer keys
+- [Zeal PC's 67g Tealios (Linear)](https://zealpc.net/collections/accessories/products/tealios) for shift, ctrl, OS, alt, and fn keys
 - [Zeal PC's 67g Zealios (Tactile)](https://zealpc.net/collections/accessories/products/zealio) for all other keys
 - [Zeal PC's Transparent Gold Plated Stabilizers](https://zealpc.net/collections/accessories/products/zealstabilizers)
 
@@ -34,3 +41,4 @@ Custom mechanical keyboard: PCB, firmware, and models.
 ## Inspiration
 - [ONO-SENDAI MATRIX 83](https://imgur.com/a/v5pzh#FiXKcm0)
 - [CODE Mechanical Keyboard](https://www.codekeyboards.com/)
+- [Teensy++ 2.0 USB Development Board](https://www.pjrc.com/store/teensypp.html)
