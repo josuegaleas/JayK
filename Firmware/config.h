@@ -1,6 +1,6 @@
 /*
  * Author: Josue Galeas
- * Last Edit: 2018.03.12
+ * Last Edit: 2018.03.15
  */
 
 #ifndef CONFIG_H
@@ -8,7 +8,7 @@
 
 #define VENDOR_ID 0xDEAD
 #define PRODUCT_ID 0x0101
-#define MANUFACTURER josuegaleas
+#define MANUFACTURER Josue Galeas
 #define PRODUCT JayKey1
 #define DESCRIPTION Firmware for JayKey1
 
