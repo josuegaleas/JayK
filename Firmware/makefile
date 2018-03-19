@@ -2,7 +2,7 @@ TARGET = jaykey1
 TMK_DIR = ./tmk_core
 TARGET_DIR = .
 
-SRC = keymap.c
+SRC = keymap.c matrix.c led.c
 CONFIG_H = config.h
 
 MCU = at90usb1286
