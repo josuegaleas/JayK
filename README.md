@@ -1,5 +1,7 @@
 # JayKey1
-Custom mechanical keyboard: PCB, firmware, and models.
+Custom mechanical keyboard: PCB, firmware, and case models.
+
+JayKey2 with *more* features can be found [here](https://github.com/josuegaleas/JayKey2).
 
 ## Features
 - TMK-based firmware
