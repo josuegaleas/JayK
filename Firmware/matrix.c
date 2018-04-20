@@ -1,6 +1,6 @@
 /*
  * Author: Josue Galeas
- * Last Edit: 2018.03.20
+ * Last Edit: 2018.04.20
  */
 
 #include <stdint.h>
@@ -16,6 +16,7 @@
 #define DEBOUNCE 5
 #endif
 
+static const matrix_row_t one = 1;
 static uint8_t debouncing = DEBOUNCE;
 static matrix_row_t matrix[MATRIX_ROWS];
 static matrix_row_t matrix_debouncing[MATRIX_ROWS];
@@ -42,7 +43,7 @@ uint8_t matrix_scan(void)
 	for (uint8_t i = 0; i < MATRIX_ROWS; i++)
 	{
 		select_row(i);
-		_delay_us(30); /* TODO: Is this the right amount of time? */
+		_delay_us(30); /* FIXME: Is this the right amount of time? */
 		matrix_row_t cols = read_cols();
 
 		if (matrix_debouncing[i] != cols)
@@ -107,27 +108,27 @@ static matrix_row_t read_cols(void)
 	/* Columns 5-12 on PC0-7 */
 	/* Columns 13-20 on PF7-0 */
 
-	return (PIND & (1 << 3) ? 0:(1 << 0)) |
-		(PIND & (1 << 4) ? 0:(1 << 1)) |
-		(PIND & (1 << 5) ? 0:(1 << 2)) |
-		(PIND & (1 << 6) ? 0:(1 << 3)) |
-		(PIND & (1 << 7) ? 0:(1 << 4)) |
-		(PINC & (1 << 0) ? 0:(1 << 5)) |
-		(PINC & (1 << 1) ? 0:(1 << 6)) |
-		(PINC & (1 << 2) ? 0:(1 << 7)) |
-		(PINC & (1 << 3) ? 0:(1 << 8)) |
-		(PINC & (1 << 4) ? 0:(1 << 9)) |
-		(PINC & (1 << 5) ? 0:(1 << 10)) |
-		(PINC & (1 << 6) ? 0:(1 << 11)) |
-		(PINC & (1 << 7) ? 0:(1 << 12)) |
-		(PINF & (1 << 7) ? 0:(1 << 13)) |
-		(PINF & (1 << 6) ? 0:(1 << 14)) |
-		(PINF & (1 << 5) ? 0:(1 << 15)) |
-		(PINF & (1 << 4) ? 0:((matrix_row_t)1 << 16)) |
-		(PINF & (1 << 3) ? 0:((matrix_row_t)1 << 17)) |
-		(PINF & (1 << 2) ? 0:((matrix_row_t)1 << 18)) |
-		(PINF & (1 << 1) ? 0:((matrix_row_t)1 << 19)) |
-		(PINF & (1 << 0) ? 0:((matrix_row_t)1 << 20));
+	return (PIND & (1 << 3) ? 0:(one << 0)) |
+		(PIND & (1 << 4) ? 0:(one << 1)) |
+		(PIND & (1 << 5) ? 0:(one << 2)) |
+		(PIND & (1 << 6) ? 0:(one << 3)) |
+		(PIND & (1 << 7) ? 0:(one << 4)) |
+		(PINC & (1 << 0) ? 0:(one << 5)) |
+		(PINC & (1 << 1) ? 0:(one << 6)) |
+		(PINC & (1 << 2) ? 0:(one << 7)) |
+		(PINC & (1 << 3) ? 0:(one << 8)) |
+		(PINC & (1 << 4) ? 0:(one << 9)) |
+		(PINC & (1 << 5) ? 0:(one << 10)) |
+		(PINC & (1 << 6) ? 0:(one << 11)) |
+		(PINC & (1 << 7) ? 0:(one << 12)) |
+		(PINF & (1 << 7) ? 0:(one << 13)) |
+		(PINF & (1 << 6) ? 0:(one << 14)) |
+		(PINF & (1 << 5) ? 0:(one << 15)) |
+		(PINF & (1 << 4) ? 0:(one << 16)) |
+		(PINF & (1 << 3) ? 0:(one << 17)) |
+		(PINF & (1 << 2) ? 0:(one << 18)) |
+		(PINF & (1 << 1) ? 0:(one << 19)) |
+		(PINF & (1 << 0) ? 0:(one << 20));
 }
 
 static void unselect_rows(void)

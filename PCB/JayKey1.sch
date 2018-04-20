@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 1
 Title "JayKey1 Schematic"
 Date ""
-Rev "2018.03.15"
+Rev "1.0 (180420)"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
