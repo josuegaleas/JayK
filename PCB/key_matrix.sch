@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:keyboard_parts
-LIBS:doragasu
+LIBS:jay
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 19685 7874
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "Key Matrix Schematic"
 Date ""
 Rev "1.1 (180427)"

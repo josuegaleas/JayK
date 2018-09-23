@@ -1,4 +1,4 @@
-update=Tuesday, November 14, 2017 'PMt' 12:08:28 PM
+update=Sunday, September 23, 2018 'PMt' 01:08:23 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,12 +25,22 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
 LibName1=Libraries/kicad_lib_tmk/keyboard_parts
-LibName2=Libraries/doragasu-kicad-lib/doragasu
+LibName2=Libraries/jay-kicad-lib/jay
 LibName3=power
 LibName4=device
 LibName5=transistors
@@ -60,13 +70,3 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

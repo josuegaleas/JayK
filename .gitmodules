@@ -13,3 +13,6 @@
 [submodule "PCB/Libraries/doragasu-kicad-lib"]
 	path = PCB/Libraries/doragasu-kicad-lib
 	url = https://github.com/doragasu/doragasu-kicad-lib.git
+[submodule "PCB/Libraries/jay-kicad-lib"]
+	path = PCB/Libraries/jay-kicad-lib
+	url = https://github.com/josuegaleas/jay-kicad-lib.git
