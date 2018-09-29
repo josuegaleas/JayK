@@ -9,12 +9,8 @@ I have not printed this PCB out yet, and I am not 100% certain the design works.
 ## Features
 - TMK-based firmware
 - Numpad on the left for comfort
-- USB-C port for modernness
-- Option for USB port on the left or right corner
-- No lighting for simplicity and lower cost
-
-### Planned Features
-- Mirrored layout for the numpad option
+- USB-C port, either on the left or right corner
+- No lighting for less complexity and lower cost
 
 ## Layout
 ### Default Layer
