@@ -1,44 +1,12 @@
-EESchema Schematic File Version 2
-LIBS:keyboard_parts
-LIBS:jay
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:JayKey1-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "JayKey1 Schematic"
 Date ""
-Rev "1.1 (180427)"
+Rev "1.2 (???)"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
@@ -88,7 +56,7 @@ col14
 Text Label 5150 4150 2    60   ~ 0
 col13
 $Comp
-L C C_CLK1
+L keyboard_parts:C C_CLK1
 U 1 1 5A0B3A8B
 P 3350 2700
 F 0 "C_CLK1" H 3050 2800 50  0000 L CNN
@@ -99,7 +67,7 @@ F 3 "" H 3350 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C_CLK2
+L keyboard_parts:C C_CLK2
 U 1 1 5A0B3AC7
 P 3850 2700
 F 0 "C_CLK2" H 3900 2800 50  0000 L CNN
@@ -110,7 +78,7 @@ F 3 "" H 3850 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5A0B3FFB
 P 3600 2200
 F 0 "#PWR01" H 3600 1950 50  0001 C CNN
@@ -121,7 +89,7 @@ F 3 "" H 3600 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5A0B403C
 P 3350 2900
 F 0 "#PWR02" H 3350 2650 50  0001 C CNN
@@ -132,7 +100,7 @@ F 3 "" H 3350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5A0B406B
 P 3850 2900
 F 0 "#PWR03" H 3850 2650 50  0001 C CNN
@@ -143,7 +111,7 @@ F 3 "" H 3850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 5A0B42A8
 P 3600 2600
 F 0 "#PWR04" H 3600 2350 50  0001 C CNN
@@ -154,7 +122,7 @@ F 3 "" H 3600 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C_AREF1
+L keyboard_parts:C C_AREF1
 U 1 1 5A0B4C67
 P 4500 3400
 F 0 "C_AREF1" H 4550 3500 50  0000 L CNN
@@ -165,7 +133,7 @@ F 3 "" H 4500 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5A0B4CA7
 P 4500 3600
 F 0 "#PWR05" H 4500 3350 50  0001 C CNN
@@ -176,7 +144,7 @@ F 3 "" H 4500 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5A0B4F28
 P 6400 5350
 F 0 "#PWR06" H 6400 5100 50  0001 C CNN
@@ -187,7 +155,7 @@ F 3 "" H 6400 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5A0B4F5A
 P 6500 5350
 F 0 "#PWR07" H 6500 5100 50  0001 C CNN
@@ -198,7 +166,7 @@ F 3 "" H 6500 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5A0B4F8C
 P 6600 5350
 F 0 "#PWR08" H 6600 5100 50  0001 C CNN
@@ -209,7 +177,7 @@ F 3 "" H 6600 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5A0B5542
 P 5150 2650
 F 0 "#PWR09" H 5150 2400 50  0001 C CNN
@@ -220,7 +188,7 @@ F 3 "" H 5150 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C_UCAP1
+L keyboard_parts:C C_UCAP1
 U 1 1 5A0B5574
 P 4200 3400
 F 0 "C_UCAP1" H 3850 3500 50  0000 L CNN
@@ -231,7 +199,7 @@ F 3 "" H 4200 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5A0B55F6
 P 4200 3600
 F 0 "#PWR010" H 4200 3350 50  0001 C CNN
@@ -242,7 +210,7 @@ F 3 "" H 4200 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R_HWB1
+L keyboard_parts:R R_HWB1
 U 1 1 5A0B605B
 P 4800 4850
 F 0 "R_HWB1" V 4880 4850 50  0000 C CNN
@@ -253,7 +221,7 @@ F 3 "" H 4800 4850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 5A0B60A2
 P 4800 5100
 F 0 "#PWR011" H 4800 4850 50  0001 C CNN
@@ -264,7 +232,7 @@ F 3 "" H 4800 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C_UVCC1
+L keyboard_parts:C C_UVCC1
 U 1 1 5A0B6D57
 P 6050 6000
 F 0 "C_UVCC1" H 6100 6100 50  0000 L CNN
@@ -275,7 +243,7 @@ F 3 "" H 6050 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5A0B6DE3
 P 6050 6200
 F 0 "#PWR012" H 6050 5950 50  0001 C CNN
@@ -286,7 +254,7 @@ F 3 "" H 6050 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C_VCC1
+L keyboard_parts:C C_VCC1
 U 1 1 5A0B6FCB
 P 6500 6000
 F 0 "C_VCC1" H 6550 6100 50  0000 L CNN
@@ -297,7 +265,7 @@ F 3 "" H 6500 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C_VCC2
+L keyboard_parts:C C_VCC2
 U 1 1 5A0B70AE
 P 6950 6000
 F 0 "C_VCC2" H 7000 6100 50  0000 L CNN
@@ -308,7 +276,7 @@ F 3 "" H 6950 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C_AVCC1
+L keyboard_parts:C C_AVCC1
 U 1 1 5A0B7168
 P 7400 6000
 F 0 "C_AVCC1" H 7450 6100 50  0000 L CNN
@@ -319,7 +287,7 @@ F 3 "" H 7400 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5A0B71F2
 P 6500 6200
 F 0 "#PWR013" H 6500 5950 50  0001 C CNN
@@ -330,7 +298,7 @@ F 3 "" H 6500 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5A0B7236
 P 6950 6200
 F 0 "#PWR014" H 6950 5950 50  0001 C CNN
@@ -341,7 +309,7 @@ F 3 "" H 6950 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5A0B727A
 P 7400 6200
 F 0 "#PWR015" H 7400 5950 50  0001 C CNN
@@ -352,7 +320,7 @@ F 3 "" H 7400 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R_RST1
+L keyboard_parts:R R_RST1
 U 1 1 5A0B7D8A
 P 4650 1450
 F 0 "R_RST1" V 4730 1450 50  0000 C CNN
@@ -363,7 +331,7 @@ F 3 "" H 4650 1450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_PUSH SW1
+L keyboard_parts:SW_PUSH SW1
 U 1 1 5A0B7EDF
 P 4650 1750
 F 0 "SW1" H 4800 1860 50  0000 C CNN
@@ -374,7 +342,7 @@ F 3 "" H 4650 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 5A0B8008
 P 4350 1750
 F 0 "#PWR016" H 4350 1500 50  0001 C CNN
@@ -385,7 +353,7 @@ F 3 "" H 4350 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Crystal_GND24 Y1
+L Device:Crystal_GND24 Y1
 U 1 1 5A0E38FE
 P 3600 2400
 F 0 "Y1" H 3650 2600 50  0000 L CNN
@@ -462,7 +430,7 @@ DMINUS
 Text Label 4500 2550 2    60   ~ 0
 DPLUS
 $Comp
-L AT90USB1286-AU U1
+L jay:AT90USB1286-AU U1
 U 1 1 5BA7F9F5
 P 6500 3400
 F 0 "U1" H 5400 5250 60  0000 C CNN
@@ -503,16 +471,16 @@ Entry Wire Line
 Entry Wire Line
 	4800 4250 4900 4150
 Wire Wire Line
-	4950 1750 5150 1750
+	4950 1750 5050 1750
 Wire Wire Line
 	4900 1450 5050 1450
 Wire Wire Line
 	5050 1450 5050 1750
 Connection ~ 5050 1750
 Wire Wire Line
-	3850 2100 3850 2500
+	3850 2100 3850 2400
 Wire Wire Line
-	3350 2000 3350 2500
+	3350 2000 3350 2400
 Wire Wire Line
 	7850 2050 8100 2050
 Wire Wire Line
@@ -523,8 +491,6 @@ Wire Wire Line
 	7850 2350 8100 2350
 Wire Wire Line
 	7850 2450 8100 2450
-Wire Bus Line
-	8200 2150 8200 2650
 Wire Bus Line
 	8200 2650 8350 2650
 Wire Bus Line
@@ -585,13 +551,9 @@ NoConn ~ 5150 4800
 NoConn ~ 5150 4900
 NoConn ~ 5150 5000
 Wire Bus Line
-	8200 3550 8200 5200
-Wire Bus Line
 	8200 5200 8350 5200
 Text Label 8350 5200 0    60   ~ 0
 col[00:20]
-Wire Bus Line
-	4800 3550 4800 4350
 Wire Bus Line
 	4800 4350 4650 4350
 Wire Wire Line
@@ -624,7 +586,7 @@ DMINUS
 Text Label 4200 5000 0    60   ~ 0
 DPLUS
 $Comp
-L VCC #PWR017
+L power:VCC #PWR017
 U 1 1 5BAAD93C
 P 6400 1400
 F 0 "#PWR017" H 6400 1250 50  0001 C CNN
@@ -635,7 +597,7 @@ F 3 "" H 6400 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR018
+L power:VCC #PWR018
 U 1 1 5BAAD9A4
 P 6500 1400
 F 0 "#PWR018" H 6500 1250 50  0001 C CNN
@@ -646,7 +608,7 @@ F 3 "" H 6500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR019
+L power:VCC #PWR019
 U 1 1 5BAADA0C
 P 6600 1400
 F 0 "#PWR019" H 6600 1250 50  0001 C CNN
@@ -657,7 +619,7 @@ F 3 "" H 6600 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR020
+L power:VCC #PWR020
 U 1 1 5BAADA98
 P 6050 5800
 F 0 "#PWR020" H 6050 5650 50  0001 C CNN
@@ -668,7 +630,7 @@ F 3 "" H 6050 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR021
+L power:VCC #PWR021
 U 1 1 5BAADB00
 P 6500 5800
 F 0 "#PWR021" H 6500 5650 50  0001 C CNN
@@ -679,7 +641,7 @@ F 3 "" H 6500 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR022
+L power:VCC #PWR022
 U 1 1 5BAADB68
 P 6950 5800
 F 0 "#PWR022" H 6950 5650 50  0001 C CNN
@@ -690,7 +652,7 @@ F 3 "" H 6950 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR023
+L power:VCC #PWR023
 U 1 1 5BAADBD0
 P 7400 5800
 F 0 "#PWR023" H 7400 5650 50  0001 C CNN
@@ -701,7 +663,7 @@ F 3 "" H 7400 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR024
+L power:VCC #PWR024
 U 1 1 5BAADC63
 P 4400 1450
 F 0 "#PWR024" H 4400 1300 50  0001 C CNN
@@ -712,7 +674,7 @@ F 3 "" H 4400 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR025
+L power:VCC #PWR025
 U 1 1 5BAADD9C
 P 5150 2350
 F 0 "#PWR025" H 5150 2200 50  0001 C CNN
@@ -723,7 +685,7 @@ F 3 "" H 5150 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R_USB1
+L keyboard_parts:R R_USB1
 U 1 1 5BAAF9D4
 P 4750 2450
 F 0 "R_USB1" V 4650 2450 50  0000 C CNN
@@ -734,7 +696,7 @@ F 3 "" H 4750 2450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R_USB2
+L keyboard_parts:R R_USB2
 U 1 1 5BAAFAA2
 P 4750 2550
 F 0 "R_USB2" V 4830 2550 50  0000 C CNN
@@ -755,7 +717,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2750 4200 3200
 $Comp
-L VCC #PWR026
+L power:VCC #PWR026
 U 1 1 5BAB3C15
 P 5150 2850
 F 0 "#PWR026" H 5150 2700 50  0001 C CNN
@@ -766,7 +728,7 @@ F 3 "" H 5150 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C_VBUS1
+L keyboard_parts:C C_VBUS1
 U 1 1 5BAB4287
 P 5600 6000
 F 0 "C_VBUS1" H 5650 6100 50  0000 L CNN
@@ -777,7 +739,7 @@ F 3 "" H 5600 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR027
+L power:VCC #PWR027
 U 1 1 5BAB451B
 P 4200 4700
 F 0 "#PWR027" H 4200 4550 50  0001 C CNN
@@ -788,7 +750,7 @@ F 3 "" H 4200 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 5BAB46A3
 P 5600 6200
 F 0 "#PWR028" H 5600 5950 50  0001 C CNN
@@ -801,7 +763,7 @@ $EndComp
 Wire Wire Line
 	4050 4700 4200 4700
 $Comp
-L VCC #PWR029
+L power:VCC #PWR029
 U 1 1 5BAB5080
 P 5600 5800
 F 0 "#PWR029" H 5600 5650 50  0001 C CNN
@@ -811,4 +773,16 @@ F 3 "" H 5600 5800 50  0001 C CNN
 	1    5600 5800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5050 1750 5150 1750
+Wire Wire Line
+	3850 2400 3850 2500
+Wire Wire Line
+	3350 2400 3350 2500
+Wire Bus Line
+	8200 2150 8200 2650
+Wire Bus Line
+	4800 3550 4800 4350
+Wire Bus Line
+	8200 3550 8200 5200
 $EndSCHEMATC

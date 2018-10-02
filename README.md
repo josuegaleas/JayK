@@ -50,3 +50,12 @@ JSON files can be found [here](http://www.keyboard-layout-editor.com/#/gists/af0
 	- [TMK Keyboard Firmware Collection](https://github.com/tmk/tmk_keyboard/)
 	- [How to build your very own keyboard firmware](https://deskthority.net/workshop-f7/how-to-build-your-very-own-keyboard-firmware-t7177.html)
 	- [Introduction to Keyboard Programming](https://www.massdrop.com/article/introduction-to-keyboard-programming)
+
+## Development
+Clone this repository with:
+```
+git clone --recursive https://github.com/josuegaleas/JayKey1.git
+```
+Within KiCad, navigate to the `PCB` folder and open `JayKey1.pro`.
+
+Firmware can be compiled using `make` within the `Firmware` folder.
