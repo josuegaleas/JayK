@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:JayKey1-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 19685 7874
