@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 3
 Title "Key Matrix Schematic"
 Date ""
-Rev "1.2 (???)"
+Rev "2.0 (???)"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""

@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 3
 Title "JayKey1 Schematic"
 Date ""
-Rev "1.2 (???)"
+Rev "2.0 (???)"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
@@ -394,10 +394,10 @@ F25 "COL18" B R 9450 3650 60
 F26 "COL19" B R 9450 3800 60 
 F27 "COL20" B R 9450 3950 60 
 $EndSheet
-Text Label 4150 3150 2    60   ~ 0
-DMINUS
-Text Label 4150 3250 2    60   ~ 0
-DPLUS
+Text Label 4000 3150 2    60   ~ 0
+D_N
+Text Label 4000 3250 2    60   ~ 0
+D_P
 $Comp
 L jay:AT90USB1286-AU U1
 U 1 1 5BA7F9F5
@@ -465,9 +465,9 @@ Wire Wire Line
 Wire Wire Line
 	9600 5700 9450 5700
 Text Label 9600 5550 0    60   ~ 0
-DMINUS
+D_N
 Text Label 9600 5700 0    60   ~ 0
-DPLUS
+D_P
 $Comp
 L power:VCC #PWR017
 U 1 1 5BAAD93C
@@ -570,29 +570,25 @@ $EndComp
 $Comp
 L keyboard_parts:R R_USB1
 U 1 1 5BAAF9D4
-P 4400 3150
-F 0 "R_USB1" V 4300 3150 50  0000 C CNN
-F 1 "22" V 4400 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 3150 60  0001 C CNN
-F 3 "" H 4400 3150 60  0000 C CNN
-	1    4400 3150
+P 4250 3150
+F 0 "R_USB1" V 4150 3150 50  0000 C CNN
+F 1 "22" V 4250 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 3150 60  0001 C CNN
+F 3 "" H 4250 3150 60  0000 C CNN
+	1    4250 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L keyboard_parts:R R_USB2
 U 1 1 5BAAFAA2
-P 4400 3250
-F 0 "R_USB2" V 4480 3250 50  0000 C CNN
-F 1 "22" V 4400 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 3250 60  0001 C CNN
-F 3 "" H 4400 3250 60  0000 C CNN
-	1    4400 3250
+P 4250 3250
+F 0 "R_USB2" V 4330 3250 50  0000 C CNN
+F 1 "22" V 4250 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4250 3250 60  0001 C CNN
+F 3 "" H 4250 3250 60  0000 C CNN
+	1    4250 3250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4650 3150 4800 3150
-Wire Wire Line
-	4650 3250 4800 3250
 Wire Wire Line
 	4300 3800 4300 3900
 Wire Wire Line
@@ -776,4 +772,16 @@ Text Label 9450 3800 0    60   ~ 0
 col19
 Text Label 9450 3950 0    60   ~ 0
 col20
+Text Label 3000 3100 2    60   ~ 0
+CLK_P
+Text Label 3500 3100 0    60   ~ 0
+CLK_N
+Wire Wire Line
+	4500 3150 4800 3150
+Wire Wire Line
+	4500 3250 4800 3250
+Text Label 4550 3150 1    60   ~ 0
+D_-
+Text Label 4550 3250 3    60   ~ 0
+D_+
 $EndSCHEMATC
