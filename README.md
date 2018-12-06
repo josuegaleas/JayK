@@ -9,7 +9,7 @@ I have not printed this PCB out yet, and I am not 100% certain the design works.
 ## Features
 - TMK-based firmware
 - Numpad on the left for comfort
-- USB-C port, either on the left or right corner
+- USB-C port for modernness
 - No lighting for less complexity and lower cost
 
 ## Layout
