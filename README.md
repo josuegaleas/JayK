@@ -56,6 +56,12 @@ Clone this repository with:
 ```
 git clone --recursive https://github.com/josuegaleas/JayKey1.git
 ```
+
+### Hardware
 Within KiCad, navigate to the `PCB` folder and open `JayKey1.pro`.
 
+
+### Software
 Firmware can be compiled using `make` within the `Firmware` folder.
+
+Refer to [this](https://github.com/tmk/tmk_keyboard/blob/master/tmk_core/doc/build.md) for dependencies and programming.

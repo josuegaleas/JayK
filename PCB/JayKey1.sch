@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "JayKey1 Schematic"
-Date ""
-Rev "2.0 (???)"
+Date "2018-12-14"
+Rev "2.0"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
@@ -452,8 +452,8 @@ S 8400 5400 1050 450
 U 5BA8C67B
 F0 "USB" 60
 F1 "usb.sch" 60
-F3 "DMINUS" B R 9450 5550 60 
-F4 "DPLUS" B R 9450 5700 60 
+F2 "DMINUS" B R 9450 5550 60 
+F3 "DPLUS" B R 9450 5700 60 
 $EndSheet
 Text Label 9450 5550 0    60   ~ 0
 D_N

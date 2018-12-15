@@ -6,8 +6,8 @@ $Descr User 19685 7874
 encoding utf-8
 Sheet 2 3
 Title "Key Matrix Schematic"
-Date ""
-Rev "2.0 (???)"
+Date "2018-12-14"
+Rev "2.0"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
