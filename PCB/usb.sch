@@ -14,8 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6550 2950 2    60   BiDi ~ 0
-VBUS
 Text HLabel 6550 3550 2    60   BiDi ~ 0
 DMINUS
 Text HLabel 6550 3750 2    60   BiDi ~ 0
@@ -158,4 +156,15 @@ Wire Wire Line
 Connection ~ 5650 3750
 Wire Wire Line
 	5650 2950 6250 2950
+$Comp
+L power:VCC #PWR?
+U 1 1 5C15AB5B
+P 6550 2950
+F 0 "#PWR?" H 6550 2800 50  0001 C CNN
+F 1 "VCC" V 6567 3078 50  0000 L CNN
+F 2 "" H 6550 2950 50  0001 C CNN
+F 3 "" H 6550 2950 50  0001 C CNN
+	1    6550 2950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
