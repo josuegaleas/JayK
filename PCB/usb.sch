@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:JayKey1-cache
-EELAYER 26 0
+LIBS:JayK-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "USB Schematic"
-Date "2018-12-14"
-Rev "2.0"
+Date "2019-11-13"
+Rev "2.1"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
@@ -154,17 +154,33 @@ Connection ~ 5650 3550
 Wire Wire Line
 	5650 3650 5650 3750
 Connection ~ 5650 3750
-Wire Wire Line
-	5650 2950 6250 2950
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0103
 U 1 1 5C15AB5B
 P 6550 2950
-F 0 "#PWR?" H 6550 2800 50  0001 C CNN
+F 0 "#PWR0103" H 6550 2800 50  0001 C CNN
 F 1 "VCC" V 6567 3078 50  0000 L CNN
 F 2 "" H 6550 2950 50  0001 C CNN
 F 3 "" H 6550 2950 50  0001 C CNN
 	1    6550 2950
 	0    1    1    0   
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5DCC8219
+P 5750 2850
+F 0 "#FLG0103" H 5750 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 5750 3023 50  0000 C CNN
+F 2 "" H 5750 2850 50  0001 C CNN
+F 3 "~" H 5750 2850 50  0001 C CNN
+	1    5750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2950 5750 2950
+Wire Wire Line
+	5750 2950 5750 2850
+Connection ~ 5750 2950
+Wire Wire Line
+	5750 2950 6250 2950
 $EndSCHEMATC

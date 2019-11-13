@@ -1,7 +1,7 @@
-# JayKey1
+# JayK
 Full-size mechanical keyboard with USB-C and no lighting, inspired by the [ONO-SENDAI MATRIX 83](https://imgur.com/a/v5pzh#FiXKcm0).
 
-JayKey2 with *more* features can be found [here](https://github.com/josuegaleas/JayKey2).
+JayK Pro with *more* features can be found [here](https://github.com/josuegaleas/JayK-Pro).
 
 ### Disclaimer
 I have not printed this PCB out yet, and I am not 100% certain the design works. Please print with discretion.
@@ -14,15 +14,15 @@ I have not printed this PCB out yet, and I am not 100% certain the design works.
 
 ## Layout
 ### Default Layer
-![Default Layer](https://raw.githubusercontent.com/josuegaleas/jay-images/master/keyboard-layout.png?raw=true)
+![Default Layer](https://raw.githubusercontent.com/josuegaleas/jay-images/master/keyboard.png)
 ### Other Layers
-![Other Layers](https://raw.githubusercontent.com/josuegaleas/jay-images/master/keyboard-layout_layers.png?raw=true)
+![Other Layers](https://raw.githubusercontent.com/josuegaleas/jay-images/master/keyboard_Layers.png)
 
-JSON files can be found [here](http://www.keyboard-layout-editor.com/#/gists/af0c6e535240ab3f75b8c3ce740c63bb) and [here](http://www.keyboard-layout-editor.com/#/gists/dfdca11b15b211802d6edf1502e16ecf), for editing in [KLE](http://www.keyboard-layout-editor.com/).
+JSON files for these layouts can be found [here](https://gist.github.com/josuegaleas/417a4ff5fc216ecdc7868effc9a7b36f) and [here](https://gist.github.com/josuegaleas/c81fd5085f4eeaf2fcede5950b9f7410), for editing in [KLE](http://www.keyboard-layout-editor.com/).
 
 ## Major Components
 - Microcontroller — [Microchip's AT90USB1286](https://www.microchip.com/wwwproducts/en/AT90USB1286)
-- USB-C port — [Hirose's CX90B1-24P](https://www.hirose.com/product/en/products/CX/CX90B1%2D24P/)
+- USB-C Port — [Amphenol's 12401610E4#2A](https://www.amphenol-icc.com/usb-3-1-type-c-gen-2-12401610e42a.html)
 - Crystal — [EPSON's FA-238](https://www5.epsondevice.com/en/products/crystal_unit/fa238.html)
 
 ## Tools
@@ -40,28 +40,28 @@ JSON files can be found [here](http://www.keyboard-layout-editor.com/#/gists/af0
 - [keebs.pretty](https://github.com/egladman/keebs.pretty)
 - [jay-kicad-lib](https://github.com/josuegaleas/jay-kicad-lib)
 
+## Development
+Clone this repository with:
+```bash
+git clone --recursive https://github.com/josuegaleas/JayK.git
+```
+
+### Hardware
+Within KiCad, navigate to the `PCB` folder and open `JayK.pro`.
+
+Using a grid size of `0.0234375` inches for editing the layout.
+
+### Software
+Firmware can be compiled using `make` within the `Firmware` folder.
+
+Refer to [this](https://github.com/tmk/tmk_keyboard/blob/master/tmk_core/doc/build.md) for dependencies and programming.
+
 ## References
-- Layout — [Physical Keyboard Layouts Explained In Detail](https://www.massdrop.com/talk/947/keyboard-layouts-explained-in-detail-many-pics)
+- Layout — [Physical Keyboard Layouts Explained In Detail](https://drop.com/talk/947/physical-keyboard-layouts-explained-in-detail)
 - PCB
 	- [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide)
 	- [Teensy++ 2.0 USB Development Board](https://www.pjrc.com/store/teensypp.html)
 	- [Microchip's AT90USBKEY](https://www.microchip.com/DevelopmentTools/ProductDetails/AT90USBKEY2)
 - Firmware
 	- [TMK Keyboard Firmware Collection](https://github.com/tmk/tmk_keyboard/)
-	- [How to build your very own keyboard firmware](https://deskthority.net/workshop-f7/how-to-build-your-very-own-keyboard-firmware-t7177.html)
-	- [Introduction to Keyboard Programming](https://www.massdrop.com/article/introduction-to-keyboard-programming)
-
-## Development
-Clone this repository with:
-```
-git clone --recursive https://github.com/josuegaleas/JayKey1.git
-```
-
-### Hardware
-Within KiCad, navigate to the `PCB` folder and open `JayKey1.pro`.
-
-
-### Software
-Firmware can be compiled using `make` within the `Firmware` folder.
-
-Refer to [this](https://github.com/tmk/tmk_keyboard/blob/master/tmk_core/doc/build.md) for dependencies and programming.
+	- [How to build your very own keyboard firmware](https://deskthority.net/viewtopic.php?f=7&t=7177&start=)

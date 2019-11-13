@@ -1,4 +1,4 @@
-TARGET = jaykey1
+TARGET = jayk
 TMK_DIR = ./tmk_core
 TARGET_DIR = .
 

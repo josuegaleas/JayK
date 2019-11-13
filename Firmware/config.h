@@ -1,6 +1,6 @@
 /*
  * Author: Josue Galeas
- * Last Edit: 2018.12.14
+ * Last Edit: 2019.11.09
  */
 
 #ifndef CONFIG_H
@@ -10,8 +10,8 @@
 #define PRODUCT_ID 0x0001
 #define DEVICE_VER 0x0002
 #define MANUFACTURER Josue Galeas
-#define PRODUCT JayKey1
-#define DESCRIPTION Firmware for JayKey1
+#define PRODUCT JayK
+#define DESCRIPTION Firmware for JayK
 
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 21

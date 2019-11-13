@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:JayKey1-cache
-EELAYER 26 0
+LIBS:JayK-cache
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "JayKey1 Schematic"
-Date "2018-12-14"
-Rev "2.0"
+Title "JayK Schematic"
+Date "2019-11-13"
+Rev "2.1"
 Comp "Josue Galeas"
 Comment1 ""
 Comment2 ""
